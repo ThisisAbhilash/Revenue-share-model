@@ -5,7 +5,7 @@ exports.gethURL = "http://localhost:8545";
 
 exports.ethAdminAccount = "0xc109cda59be53b1c4d47f244f6f4248c33bbb3c9";
 
-exports.ethAdminPassword = "pwc@1234";
+exports.ethAdminPassword = "test@1234";
 
 exports.contractABI = [{"constant":false,"inputs":[{"name":"_uniqueId","type":"bytes32"},{"name":"_rate","type":"uint256"}],"name":"addAnotherRate","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"_uniqueId","type":"bytes32"},{"name":"revised_rate","type":"uint256"}],"name":"update_Percent_Of_Id","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"size_of_data","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_uniqueId","type":"bytes32"}],"name":"get_Rate_By_Id","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"retailerName","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"bytes32"}],"name":"ratePercent","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_retailerName","type":"string"},{"name":"_unique_id","type":"bytes32[]"},{"name":"_rate","type":"uint256[]"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}];
 
